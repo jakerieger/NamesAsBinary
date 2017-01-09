@@ -44,4 +44,4 @@ setInterval(function() {
   client.post('statuses/update', {status: Tweet}, (err, tweet, res) => {
     console.log(Tweet)
   })
-}, 6000);
+}, 3600000);
